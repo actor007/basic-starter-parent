@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.validation.ConstraintViolationException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.validation.ConstraintViolationException;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -149,7 +149,7 @@ public class GlobalExceptionHandler {
 
 	@ExceptionHandler(value = BaseException.class)
 	public Result taxReportBusinessExceptionHandle(BaseException baseException) {
-		return Result.error(baseException.getCode(), baseException.getMessage());
+		return Result.error(String.valueOf(baseException.getCode()), baseException.getMessage());
 	}
 
 }

@@ -24,14 +24,6 @@
 
 
     <repositories>
-<!--        <repository>-->
-<!--            <id>releases</id>-->
-<!--            <name>local private nexus</name>-->
-<!--            <url>http://10.0.0.106:8081/repository/releases/</url>-->
-<!--            <releases>-->
-<!--                <enabled>true</enabled>-->
-<!--            </releases>-->
-<!--        </repository>-->
         <repository>
             <id>public</id>
             <name>aliyun nexus</name>

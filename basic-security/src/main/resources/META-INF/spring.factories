@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.basic.security.config.SecurityAutoConfiguration
+org.springframework.boot.autoconfigure.AutoConfiguration.imports=\
+com.basic.security.config.SecurityAutoConfiguration
