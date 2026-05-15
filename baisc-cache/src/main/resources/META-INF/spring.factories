@@ -1,0 +1,9 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.basic.cache.config.RedisConfig,\
+  com.basic.cache.config.CacheConfiguration,\
+  com.basic.cache.config.CacheProperties,\
+  com.basic.cache.service.impl.IDistributedLockServiceImpl,\
+  com.basic.cache.utils.RedisUtil,\
+  com.basic.cache.utils.UniqueCodeUtils,\
+  com.basic.cache.utils.UniqueIdUtil

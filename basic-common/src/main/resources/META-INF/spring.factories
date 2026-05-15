@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.basic.common.config.SpringFoxConfig,\
+  com.basic.common.handler.GlobalExceptionHandler
